@@ -6,6 +6,8 @@ import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+import Images from "./components/images/Images";
+import UploadForm from "./components/UploadForm/UploadForm";
 
 class App extends Component {
   render() {
@@ -15,10 +17,10 @@ class App extends Component {
           <div className="app">
             <Navbar />
             <Route exact path="/" component={Landing} />
-
+            <Route exact path="/images" component={Images} />
+            <Route exact path="/upload" component={UploadForm} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
-
             {/* <Footer /> */}
           </div>
         </Router>

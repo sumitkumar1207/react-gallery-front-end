@@ -17,13 +17,19 @@ class Navbar extends Component {
           >
             <span className="navbar-toggler-icon" />
           </button>
-
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="users">
+                <Link className="nav-link" to="images">
                   {" "}
-                  Users
+                  Images
+                </Link>
+              </li>
+            </ul>
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <Link className="nav-link" to="/upload">
+                  Upload
                 </Link>
               </li>
             </ul>
