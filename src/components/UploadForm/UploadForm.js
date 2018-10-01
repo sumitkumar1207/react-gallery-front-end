@@ -1,12 +1,29 @@
 import React, { Component } from "react";
 import "./UploadForm.css";
+import Modal from "react-modal";
 
 class UploadForm extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      modalIsOpen: false
+    };
+
+    this.closeModal = this.closeModal.bind(this);
+  }
+  closeModal() {
+    this.setState({ modalIsOpen: false });
+  }
+
   render() {
     return (
       <div className="modal-bg">
         <div className="modal">
-          <span className="modal-close">+</span>
+          <span onClick={this.closeModal} className="modal-close">
+            +
+          </span>
+
           <div className="form-container">
             <div className="form-container-left">
               <h1 className="h1-title">Upload Your Image.</h1>

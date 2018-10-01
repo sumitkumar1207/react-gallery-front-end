@@ -1,5 +1,6 @@
 .modal-bg {
   background-color: rgba(0, 0, 0, 0.4);
+  /* background-image: url("./img/background.jpg"); */
   position: fixed;
   top: 0;
   left: 0;
