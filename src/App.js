@@ -6,7 +6,7 @@ import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
-import Images from "./components/images/Images";
+import Images from "./components/imagesFiles/Images";
 import UploadForm from "./components/UploadForm/UploadForm";
 
 class App extends Component {
