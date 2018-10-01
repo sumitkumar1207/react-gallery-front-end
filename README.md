@@ -4,8 +4,8 @@ This is landing page of the "React-Gallery-App". Where user can register and reg
 
 Register page look like this and user can provide the detail and get registered.
 
-<img src="./images/signup.jpg" width="500">
+<img src="./images/signup.JPG" width="500">
 
 This is Login component that will take the registered user detail and allow to go into the app.
 
-<img src="./images/login.jpg" width="500">
+<img src="./images/login.JPG" width="500">
